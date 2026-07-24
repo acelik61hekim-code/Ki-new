@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
-import { stripe } from "@/lib/stripe";
-import { jobStore } from "@/lib/store";
-import { startVideoGeneration, checkVideoStatus } from "@/lib/veo";
+import { stripe } from "../../../lib/stripe";
+import { jobStore } from "../../../lib/store";
+import { startVideoGeneration, checkVideoStatus } from "../../../lib/veo";
 
 export const runtime = "nodejs";
 
